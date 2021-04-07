@@ -3,9 +3,9 @@ package com.problems;
 import java.util.HashMap;
 import java.util.List;
 
-public class TwoSum extends BaseProblem {
+public class TwoSum extends ProblemBase {
     public TwoSum() {
-        super.name = "com.company.TwoSum";
+        super.name = "TwoSum";
         super.description = """
                 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.              
                 You may assume that each input would have exactly one solution, and you may not use the same element twice.

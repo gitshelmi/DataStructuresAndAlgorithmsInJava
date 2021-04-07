@@ -9,13 +9,12 @@ public class TwoSumTests {
     @Test
     void twoSum_WithProperValues_ShouldReturnCorrectIndices() {
         //arrange
-        var twoSum = new TwoSum();
         var input = new int[]{2, 7, 11, 15};
         var target = 9;
         var expectedOutput = new int[]{0, 1};
 
         //act
-        var actualOutput = twoSum.twoSum(input, target);
+        var actualOutput = new TwoSum().twoSum(input, target);
 
         //assert
         assertTrue(actualOutput.length == 2);
@@ -25,12 +24,11 @@ public class TwoSumTests {
     @Test
     void twoSum_WithFewInputs_ShouldReturnNull() {
         //arrange
-        var twoSum = new TwoSum();
         var input = new int[]{2};
         var target = 9;
 
         //act
-        var actualOutput = twoSum.twoSum(input, target);
+        var actualOutput = new TwoSum().twoSum(input, target);
 
         //assert
         assertEquals(actualOutput, null);
@@ -39,12 +37,11 @@ public class TwoSumTests {
     @Test
     void twoSum_WithNoValidAnswer_ShouldReturn00() {
         //arrange
-        var twoSum = new TwoSum();
         var input = new int[]{2, 3, 4};
         var target = 100;
 
         //act
-        var actualOutput = twoSum.twoSum(input, target);
+        var actualOutput = new TwoSum().twoSum(input, target);
 
         //assert
         assertTrue(actualOutput.length == 2);

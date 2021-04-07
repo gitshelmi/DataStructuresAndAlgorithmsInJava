@@ -2,7 +2,7 @@ package com.problems;
 
 import java.util.List;
 
-public class BaseProblem {
+public class ProblemBase {
     public String name;
     public String description;
     public String source;
