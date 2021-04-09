@@ -7,5 +7,6 @@ enum Level {
 }
 
 enum Tags {
-    Arrays
+    Arrays,
+    LinkedLists
 }

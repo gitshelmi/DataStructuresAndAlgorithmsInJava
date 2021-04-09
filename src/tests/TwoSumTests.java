@@ -1,4 +1,4 @@
-package Tests;
+package tests;
 
 import com.problems.TwoSum;
 import org.junit.jupiter.api.Test;
