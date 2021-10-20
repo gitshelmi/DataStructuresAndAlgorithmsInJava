@@ -3,10 +3,12 @@ package com.problems;
 enum Level {
     Easy,
     Moderate,
-    Hard
+    Hard,
+    Unknown
 }
 
 enum Tags {
     Arrays,
+    Strings,
     LinkedLists
 }
